@@ -1,0 +1,185 @@
+.items-container{
+  padding-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  margin-left: -8px;
+}
+.item{
+  display: flex;
+  flex-direction: column;
+  padding:20px;
+  padding-top: 40px;
+  height:420px;
+  border-style:solid;
+  border-width: 1px;
+  border-color: rgb(201, 190, 190);
+}
+.product-image{
+  height:160px;
+  width:160px;
+}
+.ratings-stars{
+  height:20px;
+  margin-top:10px;
+  margin-right:8px
+}
+.reviews{
+  margin-top:13px;
+  color:rgb(19, 19, 215)
+}
+.price{
+  font-weight: 600;
+  margin-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.product-name{
+  margin-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  height:30px
+
+}
+
+.cart-quantity{
+  width: 50px;
+  height: 30px;
+  border-radius: 5px;
+  margin-top: 10px;
+  background-color: rgb(207, 207, 207);
+}
+
+.add-to-cart-button{
+  margin-top: 40px;
+  background-color: rgb(254, 212, 0);
+  height: 35px;
+  width:200px;
+  border-radius: 20px;
+}
+.add-to-cart-button:hover{
+  background-color: rgb(222, 189, 24); ;
+}
+
+.header{
+  position:fixed;
+  background-color: rgb(4, 19, 41);
+  width: 100%;
+  top:0;
+  left:0;
+  height: 60px;
+  display: flex;
+}
+.amazon-logo{
+  height:30px;
+  margin-top:10px;
+  margin-left:20px;
+}
+.amazon-home{
+  background-color: rgb(4, 19, 41);
+  border:none;
+  height:50px;
+  padding-right: 25px;
+  margin-top: 5px;
+}
+.amazon-home:hover{
+  border-style:solid;
+  border-color: white;
+  border-width: 2px;
+
+}
+.search{
+  margin-left: 70px;
+  height:35px;
+  margin-top: 10px;
+  padding-left: 10px;
+  font-size: 15px;
+  flex:1;
+}
+.returns-text{
+  font-size: 13px;
+  margin-right:18px
+}
+.orders-text{
+  font-size: 15px;
+  font-weight:600
+}
+
+.orders-returns-button{
+  margin-left:30px;
+  align-items: left;
+  background-color: rgb(4, 19, 41);
+  color: white;
+  border:none;
+  height:58px;
+  margin-top: 1px;
+}
+.search-button{
+  height:40px;
+  margin-top:10.5px;
+  border:none;
+  margin-left:-4px;
+  border-radius: 5px;
+  background-color: rgb(228, 211, 16);
+  z-index: -10;
+  width: 50px;
+  padding-top:6px;
+}
+.orders-returns-button:hover{
+  border-style:solid;
+  border-color: white;
+  border-width: 1px;
+}
+.search-icon{
+  height:25px;
+}
+.cart-button{
+  display: flex;
+  background-color: rgb(4, 19, 41);
+  border: none;
+  height:58px;
+  margin-top: 1px;
+  margin-right:20px;
+
+}
+.cart-icon{
+  height:35px;
+  margin-top: 10px;
+}
+.cart-text{
+  color:white;
+  margin-top:25px;
+  font-weight: 600;
+}
+.cart-button:hover{
+  border-style:solid;
+  border-color: white;
+  border-width: 1px;
+}
+.cart-quantity-display{
+  color: white;
+  position: fixed;
+  top:12px;
+  right:70px;
+  font-size: 15px;
+  color: orange;
+  font-weight: 600;
+}
+
+.added-to-cart-invis{
+  display: flex;
+  margin-top: 20px;
+  margin-left: 23px;
+  opacity: 0;
+}
+.added-to-cart{
+  display: flex;
+  margin-top: 20px;
+  margin-left: 23px;
+}
+.added-to-cart-text{
+  margin-top: 10px;
+  margin-left: 5px;
+  color: green;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
